@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		
+		<script type="text/javascript" src="../scripts/jquery.js">
+		</script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				var domObj = document.getElementsByTagName("h3")[0]; //Dom对象
+				var $jQueryObj = $(domObj);
+				alert("DOM对象：" + domObj.innerHTML);
+				alert("jQuery对象："+$jQueryObj.html());
+			});
+		</script>
+	</head>
+	<body>
+		<h3>例子</h3>
+<p title="选择你最喜欢的水果." >你最喜欢的水果是?</p>
+<ul>
+<li>苹果</li>
+<li>橘子</li>
+<li>菠萝</li>
+</ul>
+	</body>
+</html>
